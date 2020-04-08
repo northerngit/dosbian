@@ -6,6 +6,9 @@ sudo wget -q --spider https://google.com
 if [ $? -eq 0 ]; then
 	# Internet connection detected,  connecting ...
 
+	printf "\n\nBACKINGUP FILES..."
+	cp -a /usr/local/bin/.  /root/backup
+
 	printf "\n\nUPDATING FILES..."
 	sudo wget -N -q https://raw.githubusercontent.com/appnjoy/dosbian/master/usr/local/bin/menu -O /usr/local/bin/menu
 	sudo chmod -R 777 /usr/local/bin/menu
@@ -21,11 +24,13 @@ if [ $? -eq 0 ]; then
 	sudo wget -N -q https://raw.githubusercontent.com/appnjoy/dosbian/master/usr/local/bin/splash.jpg -O /usr/local/bin/splash.jpg
 	sudo chmod -R 777 /usr/local/bin/splash.jpg
 
-	printf "\n\n\n\nDOSBIAN WAS SUCCESSFULL UPDATED!"
+	printf "\n\nDOSBIAN WAS SUCCESSFULL UPDATED!"
 
 	printf "\n\nTo enable all the changes, a reboot is required.\n\n"
+	printf "PLEASE NOTE: If the update corrupted your system, no panic!, from console, type the command: sudo dosbianrestore\n\n"	
 	read -n 1 -s -r -p "Press any key to REBOOT "
 
+	printf "\n\nREBOOTING... "
 	sudo reboot now
 
 else
