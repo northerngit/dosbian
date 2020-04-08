@@ -1,0 +1,54 @@
+int10_modes.o: int10_modes.cpp /usr/include/stdc-predef.h \
+ /usr/include/string.h \
+ /usr/include/arm-linux-gnueabihf/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/bits/long-double.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/8/include/stddef.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/locale_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/__locale_t.h \
+ /usr/include/strings.h ../../include/dosbox.h ../../config.h \
+ ../../include/logging.h ../../include/mem.h ../../include/inout.h \
+ int10.h ../../include/vga.h
+
+/usr/include/stdc-predef.h:
+
+/usr/include/string.h:
+
+/usr/include/arm-linux-gnueabihf/bits/libc-header-start.h:
+
+/usr/include/features.h:
+
+/usr/include/arm-linux-gnueabihf/sys/cdefs.h:
+
+/usr/include/arm-linux-gnueabihf/bits/wordsize.h:
+
+/usr/include/arm-linux-gnueabihf/bits/long-double.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/8/include/stddef.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types/locale_t.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types/__locale_t.h:
+
+/usr/include/strings.h:
+
+../../include/dosbox.h:
+
+../../config.h:
+
+../../include/logging.h:
+
+../../include/mem.h:
+
+../../include/inout.h:
+
+int10.h:
+
+../../include/vga.h:

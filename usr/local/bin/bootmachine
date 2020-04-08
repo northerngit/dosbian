@@ -1,0 +1,4 @@
+#!/bin/bash
+
+/usr/bin/dosbox >/dev/null 2>&1
+

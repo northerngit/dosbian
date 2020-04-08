@@ -1,0 +1,10 @@
+ipx.o: ipx.cpp /usr/include/stdc-predef.h ../../include/dosbox.h \
+ ../../config.h ../../include/logging.h
+
+/usr/include/stdc-predef.h:
+
+../../include/dosbox.h:
+
+../../config.h:
+
+../../include/logging.h:
