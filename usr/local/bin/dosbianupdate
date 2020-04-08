@@ -1,0 +1,39 @@
+#!/bin/bash
+
+printf "DOSBIAN is checking for updates, Please wait..."
+sudo wget -q --spider https://google.com
+
+if [ $? -eq 0 ]; then
+	# Internet connection detected,  connecting ...
+
+	printf "\n\nUPDATING FILES..."
+	sudo wget -N -q https://raw.githubusercontent.com/appnjoy/dosbian/master/usr/local/bin/menu -O /usr/local/bin/menu
+	sudo chmod -R 777 /usr/local/bin/menu
+
+	sudo wget -N -q https://raw.githubusercontent.com/appnjoy/dosbian/master/usr/local/bin/dosbianupdate -O /usr/local/bin/dosbianupdate
+	sudo chmod -R 777 /usr/local/bin/dosbianupdate
+
+
+	printf "\n\nUPDATING IMAGES..."
+	sudo wget -N -q https://raw.githubusercontent.com/appnjoy/dosbian/master/usr/local/bin/dosbianmenu.jpg -O /usr/local/bin/dosbianmenu.jpg
+	sudo chmod -R 777 /usr/local/bin/dosbianmenu.jpg
+
+	sudo wget -N -q https://raw.githubusercontent.com/appnjoy/dosbian/master/usr/local/bin/splash.jpg -O /usr/local/bin/splash.jpg
+	sudo chmod -R 777 /usr/local/bin/splash.jpg
+
+	printf "\n\n\n\nDOSBIAN WAS SUCCESSFULL UPDATED!"
+
+	printf "\n\nTo enable all the changes, a reboot is required.\n\n"
+	read -n 1 -s -r -p "Press any key to REBOOT "
+
+	sudo reboot now
+
+else
+
+	printf "\n\nSorry, no internet connection detected, OPERATION ABORTED.\n\n"
+	read -n 1 -s -r -p "Press any key to get back to Dosbian menu " 
+
+fi
+
+
+
