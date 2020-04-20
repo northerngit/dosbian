@@ -3,7 +3,7 @@ BACKTITLE="*** INFORMATION ABOUT DOSBIAN V1.0 *** "
 
 text=$(cat <<-END
 \nDOSBIAN is a Raspberry Pi distro created in 2020 by Carmelo Maiolino.
-\n\nKeep in the palm of your hand an equivalent 486DX machine of the ninities and enjoy playing with your preferite retro software and retro games.
+\n\nKeep in the palm of your hand an equivalent 486DX machine of the 90s and enjoy playing with your preferite retro software and retro games.
 \n\n\nTHE PROJECT
 \n\nWeb page: https://cmaiolino.wordpress.com/dosbian
 \nFacebook: www.facebook.com/groups/Dosbian

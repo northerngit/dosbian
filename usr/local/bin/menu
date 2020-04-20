@@ -3,7 +3,7 @@
 HEIGHT=45
 WIDTH=110
 CHOICE_HEIGHT=43
-BACKTITLE="*** DOSBIAN (Community Edition) - Your brand new 486DX machine :) - Developed by Carmelo Maiolino (C) 2020 *** "
+BACKTITLE="*** DOSBIAN V1.0 - Your brand new 486DX machine :) - Developed by Carmelo Maiolino (C) 2020 *** "
 TITLE="DOSBIAN version 1.0 - MENU"
 MENU="Use arrow keys to move through options"
 
