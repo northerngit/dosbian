@@ -10,7 +10,10 @@ text=$(cat <<-END
 \n\nVisit my web page to leave a comment, get the latest news, download new versions of Dosbian.
 \n\nIf you need help on how to start with Dosbian, please feel free to ask support to the Facebook community.
 \n\n\nTERMS OF USE
-\n\nDosbian is a donationware project, this means you can modify, improve, customise it\nas you like, however, IT IS STRICTLY PROHIBITED TO USE IT FOR COMMERCIAL PURPOSES.
+\n\nDOSBIAN is a donationware project, this means you can modify, improve, customise it\nas you like for your own use.
+\n\nIT IS STRICTLY PROHIBITED:
+\n\n- USE DOSBIAN FOR COMMERCIAL PURPOSES.
+\n\n- DIFFUSE YOUR OWN CUSTOMIZED COPY OF DOSBIAN
 \n\n\nAWARDS
 \n\nThe existence of DOSBIAN couldn't be possible without the following gems: 
 \n\n* Raspbian    - The Debian distro for Raspberry Pi (www.raspberrypi.org)
@@ -20,7 +23,7 @@ text=$(cat <<-END
 END
 )
 
-dialog --title "INFORMATION" --backtitle "$BACKTITLE"  --msgbox "$text"  40 90
+dialog --title "INFORMATION" --backtitle "$BACKTITLE"  --msgbox "$text"  44 98
 
 
 
