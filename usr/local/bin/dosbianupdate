@@ -43,6 +43,15 @@ if [ $? -eq 0 ]; then
 	sudo wget -N -q https://raw.githubusercontent.com/appnjoy/dosbian/master/usr/local/bin/unmountdrive -O /usr/local/bin/unmountdrive
 	sudo chmod -R 777 /usr/local/bin/unmountdrive
 
+	sudo wget -N -q https://raw.githubusercontent.com/appnjoy/dosbian/master/usr/local/bin/beeper -O /usr/local/bin/beeper
+	sudo chmod -R 777 /usr/local/bin/beeper
+
+	sudo wget -N -q https://raw.githubusercontent.com/appnjoy/dosbian/master/usr/local/bin/change_boot -O /usr/local/bin/change_boot
+	sudo chmod -R 777 /usr/local/bin/change_boot
+
+	sudo wget -N -q https://raw.githubusercontent.com/appnjoy/dosbian/master/usr/local/bin/customize -O /usr/local/bin/customize
+	sudo chmod -R 777 /usr/local/bin/customize
+
 
 	printf "\n\nUPDATING IMAGES..."
 	sudo wget -N -q https://raw.githubusercontent.com/appnjoy/dosbian/master/usr/local/bin/dosbianmenu.jpg -O /usr/local/bin/dosbianmenu.jpg
