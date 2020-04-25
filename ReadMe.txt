@@ -11,6 +11,7 @@ It is compatible with the following Raspberry Pi models:
 - Pi 2B
 - Pi 3B
 - Pi 3B+
+- Pi 3A+
 - Pi 4B
 
 THE PROJECT
@@ -23,5 +24,12 @@ If you need help on how to start with Dosbian, please feel free to ask support t
 
 TERMS OF USE
 
-Dosbian is a donationware project, this means you can modify, improve, customise it 
-as you like, however, IT IS STRICTLY PROHIBITED TO USE IT FOR COMMERCIAL PURPOSES.
+DOSBIAN is a donationware project, this means you can modify, improve, customise it as you like for your
+own use. 
+
+IT IS STRICTLY PROHIBITED: 
+
+- USE DOSBIAN FOR COMMERCIAL PURPOSES.
+
+- DIFFUSE YOUR OWN CUSTOMIZED COPY OF DOSBIAN
+
