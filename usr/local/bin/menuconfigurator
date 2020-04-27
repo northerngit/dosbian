@@ -72,7 +72,7 @@ function edit_configuration
 function main_menu
 {
 
-configuration= $1
+configuration="${1}"
 
 	while :
 	do
@@ -134,7 +134,7 @@ configuration= $1
 			5)  unmountdrive $configuration
 	    		    ;;
 
-			6)  configrestore $configuration
+			6)  sudo configrestore $configuration
 	    		    ;;
 
 		esac
